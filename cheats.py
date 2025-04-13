@@ -4,7 +4,7 @@ import sys
 
 def main():
     if len(sys.argv) != 2:
-        print("\nWelcome to 'cheats' CLI!\n\nUsage: cheatsheet <topic>\n")
+        print("\nWelcome to 'cheats' CLI!\n\nUsage: cheats <topic>\n")
         return
 
     topic = sys.argv[1]
@@ -14,7 +14,7 @@ def main():
     cheat_path = os.path.join(brew_prefix, "share", "cheats", "cheats", f"{topic}.txt")
 
     if not os.path.exists(cheat_path):
-        print(f"No cheat sheet found for '{topic}'.")
+        print(f"\nNo cheat sheet found for '{topic}'.\n")
         return
 
     with open(cheat_path) as f:

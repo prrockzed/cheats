@@ -1,0 +1,20 @@
+
+# Node.js cheats
+
+# Project Setup
+npm init                              # Initialize new project
+npm install <pkg>                     # Install package
+npm install                           # Install all dependencies
+npm install -g <pkg>                  # Install globally
+
+# Running Code
+node app.js                           # Run JavaScript file
+npx <command>                         # Run command without installing
+
+# Scripts
+npm run <script>                      # Run script from package.json
+npm test                              # Run test script
+
+# Package Info
+npm list                              # List installed packages
+npm outdated                          # Check outdated packages

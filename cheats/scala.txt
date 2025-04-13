@@ -1,0 +1,12 @@
+
+# Scala cheats
+
+# Compile and Run
+scalac HelloWorld.scala               # Compile Scala file
+scala HelloWorld                      # Run compiled file
+
+# sbt (Simple Build Tool)
+sbt new scala/scala-seed.g8           # Create new project
+sbt compile                           # Compile project
+sbt run                               # Run main class
+sbt test                              # Run tests
