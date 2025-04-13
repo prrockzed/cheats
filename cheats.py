@@ -4,7 +4,7 @@ import sys
 
 def main():
     if len(sys.argv) != 2:
-        print("Welcome to Cheatsheet CLI!\n\nUsage: cheatsheet <topic>")
+        print("\nWelcome to 'cheats' CLI!\n\nUsage: cheatsheet <topic>\n")
         return
 
     topic = sys.argv[1]
