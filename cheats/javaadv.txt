@@ -1,0 +1,104 @@
+
+=====================================
+ Java Intermediate & Advanced Cheats
+=====================================
+
+1. Inheritance & Polymorphism
+-----------------------------
+class Animal {
+    void sound() {
+        System.out.println("Animal sound");
+    }
+}
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Bark");
+    }
+}
+
+2. Interfaces & Abstract Classes
+--------------------------------
+interface Drawable {
+    void draw();
+}
+
+abstract class Shape {
+    abstract void display();
+}
+
+3. Exception Handling (Advanced)
+--------------------------------
+try {
+    int data = 100 / 0;
+} catch (ArithmeticException | NullPointerException e) {
+    System.out.println(e);
+} finally {
+    System.out.println("Finally block");
+}
+
+4. Collections Framework
+-------------------------
+List<String> list = new ArrayList<>();
+Set<Integer> set = new HashSet<>();
+Map<Integer, String> map = new HashMap<>();
+
+5. Generics
+-----------
+public class Box<T> {
+    T value;
+    public void set(T value) { this.value = value; }
+    public T get() { return value; }
+}
+
+6. Multithreading
+------------------
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread running");
+    }
+}
+MyThread t = new MyThread();
+t.start();
+
+7. Lambda Expressions (Java 8+)
+-------------------------------
+interface Drawable {
+    void draw();
+}
+Drawable d = () -> System.out.println("Drawing");
+
+8. Stream API
+-------------
+List<String> names = Arrays.asList("John", "Jane", "Jack");
+names.stream()
+     .filter(name -> name.startsWith("J"))
+     .forEach(System.out::println);
+
+9. File I/O with NIO
+---------------------
+Path path = Paths.get("file.txt");
+List<String> lines = Files.readAllLines(path);
+
+10. JDBC (Java Database Connectivity)
+-------------------------------------
+Connection con = DriverManager.getConnection(url, user, password);
+Statement stmt = con.createStatement();
+ResultSet rs = stmt.executeQuery("SELECT * FROM table");
+
+11. Java Memory Management
+--------------------------
+- Stack vs Heap
+- Garbage Collection
+- finalize() method (deprecated)
+
+12. Design Patterns (Basic Examples)
+-------------------------------------
+Singleton:
+public class Singleton {
+    private static Singleton instance;
+    private Singleton() {}
+    public static Singleton getInstance() {
+        if (instance == null) instance = new Singleton();
+        return instance;
+    }
+}

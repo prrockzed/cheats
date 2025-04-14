@@ -1,0 +1,94 @@
+
+============
+ C++ Cheats
+============
+
+1. Basic Structure
+------------------
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    return 0;
+}
+
+2. Data Types
+-------------
+int, float, double, char, bool, string
+
+3. Variables
+------------
+int a = 10;
+float b = 20.5;
+char c = 'A';
+string name = "C++";
+
+4. Control Statements
+---------------------
+if (a > b) {
+    cout << "a is greater";
+} else {
+    cout << "b is greater";
+}
+
+for (int i = 0; i < 10; i++) {}
+
+while (condition) {}
+
+do {
+    // loop body
+} while (condition);
+
+5. Arrays
+---------
+int arr[5] = {1, 2, 3, 4, 5};
+
+6. Functions
+------------
+int add(int a, int b) {
+    return a + b;
+}
+
+7. Classes and Objects
+----------------------
+class Animal {
+public:
+    void speak() {
+        cout << "Animal speaks";
+    }
+};
+
+class Dog : public Animal {
+public:
+    void speak() {
+        cout << "Dog barks";
+    }
+};
+
+8. Pointers
+-----------
+int x = 10;
+int* ptr = &x;
+
+9. File I/O
+-----------
+#include <fstream>
+
+ofstream out("file.txt");
+out << "Hello";
+
+ifstream in("file.txt");
+string data;
+in >> data;
+
+10. STL (Standard Template Library)
+-----------------------------------
+#include <vector>
+#include <map>
+#include <set>
+#include <algorithm>
+
+vector<int> v = {1, 2, 3};
+map<string, int> m;
+set<int> s;

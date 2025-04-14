@@ -1,0 +1,48 @@
+
+==============
+ Redis Cheats
+==============
+
+# Basic Commands
+redis-server                        # Start Redis server
+redis-cli                           # Connect to Redis CLI
+redis-cli -h <host> -p <port>        # Connect to Redis at specific host and port
+redis-server --version              # Show Redis version
+
+# Redis Keys
+SET <key> <value>                    # Set key-value pair
+GET <key>                            # Get value of key
+DEL <key>                            # Delete a key
+EXPIRE <key> <seconds>               # Set expiration for a key
+TTL <key>                            # Get remaining TTL of a key
+KEYS <pattern>                       # Get all keys matching pattern
+
+# Lists
+LPUSH <list> <value>                 # Push to the left of list
+RPUSH <list> <value>                 # Push to the right of list
+LPOP <list>                          # Pop from the left of list
+RPOP <list>                          # Pop from the right of list
+LRANGE <list> <start> <stop>         # Get range of elements in list
+
+# Hashes
+HSET <hash> <field> <value>          # Set field in hash
+HGET <hash> <field>                  # Get value of field in hash
+HDEL <hash> <field>                  # Delete field in hash
+HGETALL <hash>                       # Get all fields and values in hash
+
+# Sets
+SADD <set> <member>                  # Add member to set
+SREM <set> <member>                  # Remove member from set
+SMEMBERS <set>                       # Get all members of set
+SISMEMBER <set> <member>             # Check if member exists in set
+
+# Sorted Sets
+ZADD <zset> <score> <member>         # Add member to sorted set with score
+ZRANGE <zset> <start> <stop>         # Get range of members by rank
+ZREM <zset> <member>                 # Remove member from sorted set
+ZCARD <zset>                         # Get number of members in sorted set
+
+# Persistence
+SAVE                                # Save DB to disk
+BGSAVE                              # Save DB asynchronously
+LASTSAVE                            # Get the last time the database was saved

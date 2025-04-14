@@ -1,0 +1,26 @@
+
+=================
+ Run Java Cheats
+=================
+
+# Compile and Run
+javac MyClass.java                   # Compile Java file
+java MyClass                         # Run compiled class
+java -cp . MyClass                   # Run with classpath
+
+# Package and JAR
+jar cf myapp.jar *.class             # Create JAR from classes
+jar xf myapp.jar                     # Extract JAR contents
+java -jar myapp.jar                  # Run JAR file
+
+# Maven
+mvn archetype:generate               # Creates a project structure
+mvn clean install                    # Clean and build project
+mvn package                          # Package to JAR/WAR
+mvn dependency:tree                  # View dependency tree
+
+# Gradle
+gradle init                          # Initiates a gradle project
+gradle build                         # Build project
+gradle run                           # Run project
+gradle clean                         # Clean build files

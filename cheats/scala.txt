@@ -1,5 +1,7 @@
 
-# Scala cheats
+==============
+ Scala Cheats
+==============
 
 # Compile and Run
 scalac HelloWorld.scala               # Compile Scala file

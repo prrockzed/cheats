@@ -1,0 +1,21 @@
+
+===================
+ Run Python Cheats
+===================
+
+# Running Scripts
+python script.py                      # Run Python script
+python3 script.py                     # Run with Python 3
+
+# Package Management
+pip install <pkg>                     # Install package
+pip uninstall <pkg>                   # Uninstall package
+pip list                              # List installed packages
+pip freeze > requirements.txt         # Export packages
+pip install -r requirements.txt       # Install from file
+
+# Virtual Environments
+python -m venv env                    # Create virtual env
+source env/bin/activate               # Activate (Linux/macOS)
+env\Scripts\activate                  # Activate (Windows)
+deactivate                            # Deactivate env
