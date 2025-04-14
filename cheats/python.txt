@@ -3,80 +3,80 @@
  Python Cheats
 ===============
 
-1. Basic Syntax
----------------
-print("Hello, World!")
+  1. Basic Syntax
+  ---------------
+  print("Hello, World!")
 
-2. Variables and Data Types
-----------------------------
-x = 10         # int
-y = 20.5       # float
-name = "John"  # str
-flag = True    # bool
+  2. Variables and Data Types
+  ----------------------------
+  x = 10         # int
+  y = 20.5       # float
+  name = "John"  # str
+  flag = True    # bool
 
-3. Control Flow
----------------
-if x > y:
-    print("x is greater")
-elif x == y:
-    print("Equal")
-else:
-    print("y is greater")
+  3. Control Flow
+  ---------------
+  if x > y:
+      print("x is greater")
+  elif x == y:
+      print("Equal")
+  else:
+      print("y is greater")
 
-for i in range(5):
-    print(i)
+  for i in range(5):
+      print(i)
 
-while x < 20:
-    x += 1
+  while x < 20:
+      x += 1
 
-4. Functions
-------------
-def add(a, b):
-    return a + b
+  4. Functions
+  ------------
+  def add(a, b):
+      return a + b
 
-5. Data Structures
-------------------
-list1 = [1, 2, 3]
-dict1 = {"a": 1, "b": 2}
-set1 = {1, 2, 3}
-tuple1 = (1, 2, 3)
+  5. Data Structures
+  ------------------
+  list1 = [1, 2, 3]
+  dict1 = {"a": 1, "b": 2}
+  set1 = {1, 2, 3}
+  tuple1 = (1, 2, 3)
 
-6. Classes
-----------
-class Animal:
-    def __init__(self, name):
-        self.name = name
+  6. Classes
+  ----------
+  class Animal:
+      def __init__(self, name):
+          self.name = name
 
-    def speak(self):
-        print("Animal speaks")
+      def speak(self):
+          print("Animal speaks")
 
-class Dog(Animal):
-    def speak(self):
-        print("Dog barks")
+  class Dog(Animal):
+      def speak(self):
+          print("Dog barks")
 
-7. Exception Handling
----------------------
-try:
-    x = 1 / 0
-except ZeroDivisionError:
-    print("Cannot divide by zero")
-finally:
-    print("Done")
+  7. Exception Handling
+  ---------------------
+  try:
+      x = 1 / 0
+  except ZeroDivisionError:
+      print("Cannot divide by zero")
+  finally:
+      print("Done")
 
-8. File I/O
------------
-with open("file.txt", "r") as f:
-    data = f.read()
+  8. File I/O
+  -----------
+  with open("file.txt", "r") as f:
+      data = f.read()
 
-with open("file.txt", "w") as f:
-    f.write("Hello")
+  with open("file.txt", "w") as f:
+      f.write("Hello")
 
-9. Modules
-----------
-import math
-import os
+  9. Modules
+  ----------
+  import math
+  import os
 
-10. Miscellaneous
------------------
-lambda x: x + 10
-list(map(lambda x: x * 2, [1, 2, 3]))
+  10. Miscellaneous
+  -----------------
+  lambda x: x + 10
+  list(map(lambda x: x * 2, [1, 2, 3]))

@@ -3,72 +3,72 @@
  Python Intermediate & Advanced Cheats
 =======================================
 
-1. List Comprehensions
------------------------
-squares = [x**2 for x in range(10)]
+  1. List Comprehensions
+  -----------------------
+  squares = [x**2 for x in range(10)]
 
-2. Generators
---------------
-def my_gen():
-    yield 1
-    yield 2
+  2. Generators
+  --------------
+  def my_gen():
+      yield 1
+      yield 2
 
-3. Decorators
--------------
-def decorator(func):
-    def wrapper():
-        print("Before")
-        func()
-        print("After")
-    return wrapper
+  3. Decorators
+  -------------
+  def decorator(func):
+      def wrapper():
+          print("Before")
+          func()
+          print("After")
+      return wrapper
 
-@decorator
-def say_hello():
-    print("Hello")
+  @decorator
+  def say_hello():
+      print("Hello")
 
-4. Context Managers
--------------------
-with open("file.txt") as f:
-    data = f.read()
+  4. Context Managers
+  -------------------
+  with open("file.txt") as f:
+      data = f.read()
 
-5. Lambda Functions
--------------------
-add = lambda x, y: x + y
+  5. Lambda Functions
+  -------------------
+  add = lambda x, y: x + y
 
-6. Closures
------------
-def outer(x):
-    def inner(y):
-        return x + y
-    return inner
+  6. Closures
+  -----------
+  def outer(x):
+      def inner(y):
+          return x + y
+      return inner
 
-7. Multithreading & Multiprocessing
------------------------------------
-import threading
-t = threading.Thread(target=func)
-t.start()
+  7. Multithreading & Multiprocessing
+  -----------------------------------
+  import threading
+  t = threading.Thread(target=func)
+  t.start()
 
-import multiprocessing
-p = multiprocessing.Process(target=func)
-p.start()
+  import multiprocessing
+  p = multiprocessing.Process(target=func)
+  p.start()
 
-8. Async/Await
---------------
-import asyncio
+  8. Async/Await
+  --------------
+  import asyncio
 
-async def main():
-    await asyncio.sleep(1)
+  async def main():
+      await asyncio.sleep(1)
 
-9. Type Hinting
----------------
-def add(x: int, y: int) -> int:
-    return x + y
+  9. Type Hinting
+  ---------------
+  def add(x: int, y: int) -> int:
+      return x + y
 
-10. Metaclasses
----------------
-class Meta(type):
-    def __new__(cls, name, bases, dct):
-        return super().__new__(cls, name, bases, dct)
+  10. Metaclasses
+  ---------------
+  class Meta(type):
+      def __new__(cls, name, bases, dct):
+          return super().__new__(cls, name, bases, dct)
 
-class MyClass(metaclass=Meta):
-    pass
+  class MyClass(metaclass=Meta):
+      pass

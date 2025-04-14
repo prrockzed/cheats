@@ -3,41 +3,41 @@
  Postgresql Cheats
 ===================
 
-# Basic Commands
-psql -U <user> -d <database>         # Connect to PostgreSQL
-psql -h <host> -p <port> -U <user> -d <database>   # Connect to PostgreSQL with specific host and port
-\l                                   # List all databases
-\c <database>                        # Connect to a database
+  # Basic Commands
+  psql -U <user> -d <database>         # Connect to PostgreSQL
+  psql -h <host> -p <port> -U <user> -d <database>   # Connect to PostgreSQL with specific host and port
+  \l                                   # List all databases
+  \c <database>                        # Connect to a database
 
-# Tables
-\dt                                                # List all tables
-\dt <table>                                        # Show table details
-CREATE TABLE <table> (<column_name> <type>, ...);  # Create table
-DROP TABLE <table>;                                # Drop table
-ALTER TABLE <table> ADD COLUMN <column> <type>;    # Add column to table
+  # Tables
+  \dt                                                # List all tables
+  \dt <table>                                        # Show table details
+  CREATE TABLE <table> (<column_name> <type>, ...);  # Create table
+  DROP TABLE <table>;                                # Drop table
+  ALTER TABLE <table> ADD COLUMN <column> <type>;    # Add column to table
 
-# Data Insertion and Retrieval
-INSERT INTO <table> (<column1>, <column2>) VALUES (<value1>, <value2>);  # Insert data
-SELECT * FROM <table>;                                                   # Select all rows from a table
-SELECT <column1>, <column2> FROM <table> WHERE <condition>;              # Select with condition
-UPDATE <table> SET <column> = <value> WHERE <condition>;                 # Update data
-DELETE FROM <table> WHERE <condition>;                                   # Delete data
+  # Data Insertion and Retrieval
+  INSERT INTO <table> (<column1>, <column2>) VALUES (<value1>, <value2>);  # Insert data
+  SELECT * FROM <table>;                                                   # Select all rows from a table
+  SELECT <column1>, <column2> FROM <table> WHERE <condition>;              # Select with condition
+  UPDATE <table> SET <column> = <value> WHERE <condition>;                 # Update data
+  DELETE FROM <table> WHERE <condition>;                                   # Delete data
 
-# Indexes
-CREATE INDEX <index_name> ON <table> (<column>);  # Create index
-DROP INDEX <index_name>;                          # Drop index
+  # Indexes
+  CREATE INDEX <index_name> ON <table> (<column>);  # Create index
+  DROP INDEX <index_name>;                          # Drop index
 
-# Views
-CREATE VIEW <view_name> AS SELECT <columns> FROM <table>;  # Create view
-DROP VIEW <view_name>;                                     # Drop view
+  # Views
+  CREATE VIEW <view_name> AS SELECT <columns> FROM <table>;  # Create view
+  DROP VIEW <view_name>;                                     # Drop view
 
-# User Management
-CREATE USER <username> WITH PASSWORD '<password>';  # Create user
-ALTER USER <username> WITH PASSWORD '<password>';   # Change user password
-DROP USER <username>;                               # Drop user
-GRANT <privileges> ON <table> TO <username>;        # Grant privileges
-REVOKE <privileges> ON <table> FROM <username>;     # Revoke privileges
+  # User Management
+  CREATE USER <username> WITH PASSWORD '<password>';  # Create user
+  ALTER USER <username> WITH PASSWORD '<password>';   # Change user password
+  DROP USER <username>;                               # Drop user
+  GRANT <privileges> ON <table> TO <username>;        # Grant privileges
+  REVOKE <privileges> ON <table> FROM <username>;     # Revoke privileges
 
-# Backup and Restore
-pg_dump <database> > <backup_file>.sql    # Backup database
-psql <database> < <backup_file>.sql       # Restore database from backup
+  # Backup and Restore
+  pg_dump <database> > <backup_file>.sql    # Backup database
+  psql <database> < <backup_file>.sql       # Restore database from backup

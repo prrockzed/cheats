@@ -3,57 +3,57 @@
  Docker Cheats
 ===============
 
-# Basic Commands
-docker --version                      # Show Docker version
-docker info                           # Display system-wide info
-docker help                           # Get help on Docker CLI
+  # Basic Commands
+  docker --version                      # Show Docker version
+  docker info                           # Display system-wide info
+  docker help                           # Get help on Docker CLI
 
-# Images
-docker build -t <name>:<tag> .        # Build image from Dockerfile
-docker images                         # List images
-docker rmi <image_id>                 # Remove image
-docker pull <image_name>              # Download image from Docker Hub
-docker tag <image> <repo>:<tag>       # Tag image for repo
-docker push <repo>:<tag>              # Push image to registry
+  # Images
+  docker build -t <name>:<tag> .        # Build image from Dockerfile
+  docker images                         # List images
+  docker rmi <image_id>                 # Remove image
+  docker pull <image_name>              # Download image from Docker Hub
+  docker tag <image> <repo>:<tag>       # Tag image for repo
+  docker push <repo>:<tag>              # Push image to registry
 
-# Containers
-docker run <image>                    # Run container from image
-docker run -it <image> /bin/bash      # Run with interactive terminal
-docker run -d -p 8080:80 <image>      # Run in detached mode with port mapping
-docker ps                             # List running containers
-docker ps -a                          # List all containers
-docker stop <container_id>            # Stop container
-docker start <container_id>           # Start stopped container
-docker rm <container_id>              # Remove container
-docker exec -it <id> bash             # Start a shell in a running container
-docker run -d -p 80:80 img            # Run container in detached mode with port mapping
+  # Containers
+  docker run <image>                    # Run container from image
+  docker run -it <image> /bin/bash      # Run with interactive terminal
+  docker run -d -p 8080:80 <image>      # Run in detached mode with port mapping
+  docker ps                             # List running containers
+  docker ps -a                          # List all containers
+  docker stop <container_id>            # Stop container
+  docker start <container_id>           # Start stopped container
+  docker rm <container_id>              # Remove container
+  docker exec -it <id> bash             # Start a shell in a running container
+  docker run -d -p 80:80 img            # Run container in detached mode with port mapping
 
-# Docker Compose
-docker-compose up                     # Start services
-docker-compose up -d                  # Start in detached mode
-docker-compose down                   # Stop and remove services
-docker-compose build                  # Build services
+  # Docker Compose
+  docker-compose up                     # Start services
+  docker-compose up -d                  # Start in detached mode
+  docker-compose down                   # Stop and remove services
+  docker-compose build                  # Build services
 
-# Docker Networks
-docker network ls                     # List networks
-docker network create <name>          # Create network
-docker network connect <net> <cont>   # Connect container to network
+  # Docker Networks
+  docker network ls                     # List networks
+  docker network create <name>          # Create network
+  docker network connect <net> <cont>   # Connect container to network
 
-# Docker Cleanup
-docker system prune                   # Remove unused data
-docker image prune                    # Remove unused images
-docker container prune                # Remove stopped containers
+  # Docker Cleanup
+  docker system prune                   # Remove unused data
+  docker image prune                    # Remove unused images
+  docker container prune                # Remove stopped containers
 
-# Volumes
-docker volume create <name>           # Create named volume
-docker volume ls                      # List volumes
-docker run -v <name>:/path <image>    # Mount volume to container
+  # Volumes
+  docker volume create <name>           # Create named volume
+  docker volume ls                      # List volumes
+  docker run -v <name>:/path <image>    # Mount volume to container
 
-# Dockerfile Commands
-FROM <base_image>                     # Base image
-COPY <src> <dest>                     # Copy files
-RUN <command>                         # Run command during build
-CMD ["executable","param"]            # Default command
-EXPOSE <port>                         # Inform port used
-ENV <key>=<value>                     # Set env var
-WORKDIR <path>                        # Set working directory
+  # Dockerfile Commands
+  FROM <base_image>                     # Base image
+  COPY <src> <dest>                     # Copy files
+  RUN <command>                         # Run command during build
+  CMD ["executable","param"]            # Default command
+  EXPOSE <port>                         # Inform port used
+  ENV <key>=<value>                     # Set env var
+  WORKDIR <path>                        # Set working directory

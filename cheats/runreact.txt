@@ -3,23 +3,23 @@
  React Cheats
 ==============
 
-# Create Project
-npx create-react-app my-app           # Create new React app
-cd my-app
-npm start                             # Start dev server
-npm run build                         # Build production version
+  # Create Project
+  npx create-react-app my-app           # Create new React app
+  cd my-app
+  npm start                             # Start dev server
+  npm run build                         # Build production version
 
-# Common Scripts
-npm test                              # Run tests
-npm run eject                         # Eject config (use with caution)
+  # Common Scripts
+  npm test                              # Run tests
+  npm run eject                         # Eject config (use with caution)
 
-# Useful Packages
-npm install axios                     # HTTP client
-npm install react-router-dom          # Routing
-npm install redux react-redux         # State management
+  # Useful Packages
+  npm install axios                     # HTTP client
+  npm install react-router-dom          # Routing
+  npm install redux react-redux         # State management
 
-# JSX Basics
-<Component />                         # Render component
-{expression}                          # Embed JS in JSX
-props.name                            # Access props
-useState, useEffect                   # Common hooks
+  # JSX Basics
+  <Component />                         # Render component
+  {expression}                          # Embed JS in JSX
+  props.name                            # Access props
+  useState, useEffect                   # Common hooks

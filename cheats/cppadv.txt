@@ -3,69 +3,69 @@
  C++ Intermediate & Advanced Cheats
 ====================================
 
-1. Templates
-------------
-template <typename T>
-T add(T a, T b) {
-    return a + b;
-}
+  1. Templates
+  ------------
+  template <typename T>
+  T add(T a, T b) {
+      return a + b;
+  }
 
-2. STL Algorithms
-------------------
-#include <algorithm>
-sort(v.begin(), v.end());
+  2. STL Algorithms
+  ------------------
+  #include <algorithm>
+  sort(v.begin(), v.end());
 
-3. Lambda Expressions
----------------------
-auto add = [](int a, int b) { return a + b; };
+  3. Lambda Expressions
+  ---------------------
+  auto add = [](int a, int b) { return a + b; };
 
-4. Smart Pointers
-------------------
-#include <memory>
-std::unique_ptr<int> p1(new int(10));
+  4. Smart Pointers
+  ------------------
+  #include <memory>
+  std::unique_ptr<int> p1(new int(10));
 
-5. Namespaces
---------------
-namespace myspace {
-    int x = 10;
-}
+  5. Namespaces
+  --------------
+  namespace myspace {
+      int x = 10;
+  }
 
-6. Operator Overloading
-------------------------
-class Complex {
-public:
-    int real, imag;
-    Complex operator + (const Complex& obj) {
-        return {real + obj.real, imag + obj.imag};
-    }
-};
+  6. Operator Overloading
+  ------------------------
+  class Complex {
+  public:
+      int real, imag;
+      Complex operator + (const Complex& obj) {
+          return {real + obj.real, imag + obj.imag};
+      }
+  };
 
-7. Move Semantics & Rvalue References
--------------------------------------
-void foo(int&& x) {}
+  7. Move Semantics & Rvalue References
+  -------------------------------------
+  void foo(int&& x) {}
 
-8. Multithreading
-------------------
-#include <thread>
-void func() {}
-std::thread t1(func);
-t1.join();
+  8. Multithreading
+  ------------------
+  #include <thread>
+  void func() {}
+  std::thread t1(func);
+  t1.join();
 
-9. Virtual Functions & Polymorphism
------------------------------------
-class Base {
-public:
-    virtual void show() { cout << "Base"; }
-};
+  9. Virtual Functions & Polymorphism
+  -----------------------------------
+  class Base {
+  public:
+      virtual void show() { cout << "Base"; }
+  };
 
-class Derived : public Base {
-public:
-    void show() override { cout << "Derived"; }
-};
+  class Derived : public Base {
+  public:
+      void show() override { cout << "Derived"; }
+  };
 
-10. File Handling with Streams
-------------------------------
-#include <fstream>
-std::ifstream in("file.txt");
-std::string data;
-in >> data;
+  10. File Handling with Streams
+  ------------------------------
+  #include <fstream>
+  std::ifstream in("file.txt");
+  std::string data;
+  in >> data;

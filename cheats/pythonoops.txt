@@ -3,56 +3,56 @@
  OOPs in Python Cheats
 =======================
 
-1. Class & Object:
-Everything is an object in Python.
+  1. Class & Object:
+  Everything is an object in Python.
 
-2. Access Specifiers:
-Python has name mangling for private (_var, __var), no strict enforcement.
+  2. Access Specifiers:
+  Python has name mangling for private (_var, __var), no strict enforcement.
 
-3. Encapsulation:
-Achieved using private variables (by convention) and public methods.
+  3. Encapsulation:
+  Achieved using private variables (by convention) and public methods.
 
-4. Constructor:
-__init__() method
+  4. Constructor:
+  __init__() method
 
-5. this Pointer:
-"self" represents the current instance.
+  5. this Pointer:
+  "self" represents the current instance.
 
-6. Copy Constructor:
-Not built-in, but copy module provides copy() and deepcopy()
+  6. Copy Constructor:
+  Not built-in, but copy module provides copy() and deepcopy()
 
-7. Shallow vs Deep Copy:
-copy.copy() for shallow, copy.deepcopy() for deep copy.
+  7. Shallow vs Deep Copy:
+  copy.copy() for shallow, copy.deepcopy() for deep copy.
 
-8. Destructor:
-__del__() method, not commonly used due to garbage collection.
+  8. Destructor:
+  __del__() method, not commonly used due to garbage collection.
 
-9. Inheritance:
-class Derived(Base): pass
+  9. Inheritance:
+  class Derived(Base): pass
 
-10. Mode of Inheritance:
-Single, Multiple, Multilevel, Hierarchical, Hybrid.
+  10. Mode of Inheritance:
+  Single, Multiple, Multilevel, Hierarchical, Hybrid.
 
-11. Types of Inheritance:
-All types supported.
+  11. Types of Inheritance:
+  All types supported.
 
-12. Polymorphism:
-Duck typing, method overriding, operator overloading
+  12. Polymorphism:
+  Duck typing, method overriding, operator overloading
 
-13. Function Overloading:
-Not directly supported, can be mimicked with default args.
+  13. Function Overloading:
+  Not directly supported, can be mimicked with default args.
 
-14. Function Overriding:
-Supported natively in child class.
+  14. Function Overriding:
+  Supported natively in child class.
 
-15. Virtual Function:
-All functions are virtual by nature.
+  15. Virtual Function:
+  All functions are virtual by nature.
 
-16. Abstraction:
-Via abstract base classes from abc module.
+  16. Abstraction:
+  Via abstract base classes from abc module.
 
-17. Abstract Class:
-from abc import ABC, abstractmethod
+  17. Abstract Class:
+  from abc import ABC, abstractmethod
 
-18. Static Keyword:
-@staticmethod decorator
+  18. Static Keyword:
+  @staticmethod decorator

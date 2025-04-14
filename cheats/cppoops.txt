@@ -3,56 +3,56 @@
  OOPs in C++ Cheats
 ====================
 
-1. Class & Object:
-Core building block. Class defines, Object uses.
+  1. Class & Object:
+  Core building block. Class defines, Object uses.
 
-2. Access Specifiers:
-public, private, protected
+  2. Access Specifiers:
+  public, private, protected
 
-3. Encapsulation:
-Use of private members and public getters/setters.
+  3. Encapsulation:
+  Use of private members and public getters/setters.
 
-4. Constructor:
-Same name as class, no return type.
+  4. Constructor:
+  Same name as class, no return type.
 
-5. this Pointer:
-Pointer to current object instance inside class method.
+  5. this Pointer:
+  Pointer to current object instance inside class method.
 
-6. Copy Constructor:
-Special constructor to initialize a new object from an existing one.
+  6. Copy Constructor:
+  Special constructor to initialize a new object from an existing one.
 
-7. Shallow vs Deep Copy:
-Shallow copies references; Deep copies full object memory.
+  7. Shallow vs Deep Copy:
+  Shallow copies references; Deep copies full object memory.
 
-8. Destructor:
-~ClassName() - Cleans up resources.
+  8. Destructor:
+  ~ClassName() - Cleans up resources.
 
-9. Inheritance:
-class Derived : access_modifier Base {};
+  9. Inheritance:
+  class Derived : access_modifier Base {};
 
-10. Mode of Inheritance:
-public, protected, private
+  10. Mode of Inheritance:
+  public, protected, private
 
-11. Types of Inheritance:
-Single, Multiple, Multilevel, Hierarchical, Hybrid
+  11. Types of Inheritance:
+  Single, Multiple, Multilevel, Hierarchical, Hybrid
 
-12. Polymorphism:
-Compile-time (overloading), Runtime (virtual functions)
+  12. Polymorphism:
+  Compile-time (overloading), Runtime (virtual functions)
 
-13. Function Overloading:
-Same function name, different parameters
+  13. Function Overloading:
+  Same function name, different parameters
 
-14. Function Overriding:
-Derived class provides new definition of base class virtual function.
+  14. Function Overriding:
+  Derived class provides new definition of base class virtual function.
 
-15. Virtual Function:
-Keyword "virtual" allows method to be overridden.
+  15. Virtual Function:
+  Keyword "virtual" allows method to be overridden.
 
-16. Abstraction:
-Hiding complexity via abstract classes (at least one pure virtual function).
+  16. Abstraction:
+  Hiding complexity via abstract classes (at least one pure virtual function).
 
-17. Abstract Class:
-class A { virtual void func() = 0; };
+  17. Abstract Class:
+  class A { virtual void func() = 0; };
 
-18. Static Keyword:
-Used for members shared across instances.
+  18. Static Keyword:
+  Used for members shared across instances.

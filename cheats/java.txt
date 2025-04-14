@@ -3,144 +3,144 @@
  Java Cheats
 =============
 
-1. Basic Structure
-------------------
-public class MyClass {
-    public static void main(String[] args) {
-        // Code goes here
-    }
-}
+  1. Basic Structure
+  ------------------
+  public class MyClass {
+      public static void main(String[] args) {
+          // Code goes here
+      }
+  }
 
-2. Data Types
--------------
-int, float, double, char, boolean, byte, short, long, String
+  2. Data Types
+  -------------
+  int, float, double, char, boolean, byte, short, long, String
 
-3. Variables
-------------
-int a = 10;
-double b = 20.5;
-char c = 'A';
-String name = "Java";
+  3. Variables
+  ------------
+  int a = 10;
+  double b = 20.5;
+  char c = 'A';
+  String name = "Java";
 
-4. Control Statements
----------------------
-if (condition) {
-    // code
-} else {
-    // code
-}
+  4. Control Statements
+  ---------------------
+  if (condition) {
+      // code
+  } else {
+      // code
+  }
 
-switch (variable) {
-    case value:
-        break;
-    default:
-        break;
-}
+  switch (variable) {
+      case value:
+          break;
+      default:
+          break;
+  }
 
-for (int i = 0; i < 10; i++) {
-    // loop body
-}
+  for (int i = 0; i < 10; i++) {
+      // loop body
+  }
 
-while (condition) {
-    // loop body
-}
+  while (condition) {
+      // loop body
+  }
 
-do {
-    // loop body
-} while (condition);
+  do {
+      // loop body
+  } while (condition);
 
-5. Arrays
----------
-int[] arr = new int[5];
-int[] arr2 = {1, 2, 3};
+  5. Arrays
+  ---------
+  int[] arr = new int[5];
+  int[] arr2 = {1, 2, 3};
 
-6. Methods
-----------
-public static returnType methodName(parameters) {
-    // code
-    return value;
-}
+  6. Methods
+  ----------
+  public static returnType methodName(parameters) {
+      // code
+      return value;
+  }
 
-7. Object-Oriented Programming
-------------------------------
-class Animal {
-    String name;
+  7. Object-Oriented Programming
+  ------------------------------
+  class Animal {
+      String name;
 
-    void speak() {
-        System.out.println("Animal speaks");
-    }
-}
+      void speak() {
+          System.out.println("Animal speaks");
+      }
+  }
 
-class Dog extends Animal {
-    void speak() {
-        System.out.println("Dog barks");
-    }
-}
+  class Dog extends Animal {
+      void speak() {
+          System.out.println("Dog barks");
+      }
+  }
 
-8. Exception Handling
----------------------
-try {
-    // code
-} catch (Exception e) {
-    // error handling
-} finally {
-    // cleanup
-}
+  8. Exception Handling
+  ---------------------
+  try {
+      // code
+  } catch (Exception e) {
+      // error handling
+  } finally {
+      // cleanup
+  }
 
-9. Common Classes
------------------
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.HashMap;
+  9. Common Classes
+  -----------------
+  import java.util.Scanner;
+  import java.util.ArrayList;
+  import java.util.HashMap;
 
-10. File I/O
-------------
-import java.io.*;
+  10. File I/O
+  ------------
+  import java.io.*;
 
-BufferedReader br = new BufferedReader(new FileReader("file.txt"));
-String line = br.readLine();
+  BufferedReader br = new BufferedReader(new FileReader("file.txt"));
+  String line = br.readLine();
 
-BufferedWriter bw = new BufferedWriter(new FileWriter("file.txt"));
-bw.write("Hello");
+  BufferedWriter bw = new BufferedWriter(new FileWriter("file.txt"));
+  bw.write("Hello");
 
-11. Threads
------------
-class MyThread extends Thread {
-    public void run() {
-        System.out.println("Thread running");
-    }
-}
+  11. Threads
+  -----------
+  class MyThread extends Thread {
+      public void run() {
+          System.out.println("Thread running");
+      }
+  }
 
-MyThread t = new MyThread();
-t.start();
+  MyThread t = new MyThread();
+  t.start();
 
-12. Miscellaneous
------------------
-System.out.println("Output");
-Scanner sc = new Scanner(System.in);
-int x = sc.nextInt();
+  12. Miscellaneous
+  -----------------
+  System.out.println("Output");
+  Scanner sc = new Scanner(System.in);
+  int x = sc.nextInt();
 
-13. Access Modifiers
---------------------
-public, private, protected, default
+  13. Access Modifiers
+  --------------------
+  public, private, protected, default
 
-14. Static Keyword
-------------------
-static int count;
-static void myMethod() {}
+  14. Static Keyword
+  ------------------
+  static int count;
+  static void myMethod() {}
 
-15. Final Keyword
------------------
-final int x = 10;
+  15. Final Keyword
+  -----------------
+  final int x = 10;
 
-16. Inheritance and Interfaces
-------------------------------
-interface MyInterface {
-    void myMethod();
-}
+  16. Inheritance and Interfaces
+  ------------------------------
+  interface MyInterface {
+      void myMethod();
+  }
 
-class MyClass implements MyInterface {
-    public void myMethod() {
-        System.out.println("Implemented");
-    }
-}
+  class MyClass implements MyInterface {
+      public void myMethod() {
+          System.out.println("Implemented");
+      }
+  }

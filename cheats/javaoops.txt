@@ -3,59 +3,59 @@
  OOPs in Java Cheats
 =====================
 
-1. Class & Object:
-A class is a blueprint. An object is an instance of a class.
+  1. Class & Object:
+  A class is a blueprint. An object is an instance of a class.
 
-2. Access Specifiers:
-public, private, protected, default
+  2. Access Specifiers:
+  public, private, protected, default
 
-3. Encapsulation:
-Binding data and methods in a single unit (class) using private variables and public methods.
+  3. Encapsulation:
+  Binding data and methods in a single unit (class) using private variables and public methods.
 
-4. Constructor:
-Special method with same name as class, no return type, used to initialize objects.
+  4. Constructor:
+  Special method with same name as class, no return type, used to initialize objects.
 
-5. this Pointer:
-"this" refers to the current object.
+  5. this Pointer:
+  "this" refers to the current object.
 
-6. Copy Constructor:
-Java does not have built-in copy constructors, but can be implemented manually.
+  6. Copy Constructor:
+  Java does not have built-in copy constructors, but can be implemented manually.
 
-7. Shallow vs Deep Copy:
-Shallow copy shares object references. Deep copy creates independent copies.
+  7. Shallow vs Deep Copy:
+  Shallow copy shares object references. Deep copy creates independent copies.
 
-8. Destructor:
-Java uses Garbage Collection, no explicit destructors. finalize() method deprecated.
+  8. Destructor:
+  Java uses Garbage Collection, no explicit destructors. finalize() method deprecated.
 
-9. Inheritance:
-Using "extends" keyword. Enables reuse of code.
+  9. Inheritance:
+  Using "extends" keyword. Enables reuse of code.
 
-10. Mode of Inheritance:
-Single, Multilevel, Hierarchical (Java does not support multiple inheritance with classes).
+  10. Mode of Inheritance:
+  Single, Multilevel, Hierarchical (Java does not support multiple inheritance with classes).
 
-11. Types of Inheritance:
-- Single
-- Multilevel
-- Hierarchical
-- Multiple (via Interfaces)
+  11. Types of Inheritance:
+  - Single
+  - Multilevel
+  - Hierarchical
+  - Multiple (via Interfaces)
 
-12. Polymorphism:
-Compile-time (method overloading) and Runtime (method overriding).
+  12. Polymorphism:
+  Compile-time (method overloading) and Runtime (method overriding).
 
-13. Function Overloading:
-Multiple methods with same name but different parameters.
+  13. Function Overloading:
+  Multiple methods with same name but different parameters.
 
-14. Function Overriding:
-Child class provides specific implementation of a parent class method.
+  14. Function Overriding:
+  Child class provides specific implementation of a parent class method.
 
-15. Virtual Function:
-All non-static, non-final methods are virtual by default.
+  15. Virtual Function:
+  All non-static, non-final methods are virtual by default.
 
-16. Abstraction:
-Hiding internal details using abstract classes or interfaces.
+  16. Abstraction:
+  Hiding internal details using abstract classes or interfaces.
 
-17. Abstract Class:
-Cannot be instantiated. Can have abstract and non-abstract methods.
+  17. Abstract Class:
+  Cannot be instantiated. Can have abstract and non-abstract methods.
 
-18. Static Keyword:
-Used for variables, methods, blocks, nested classes shared by all instances.
+  18. Static Keyword:
+  Used for variables, methods, blocks, nested classes shared by all instances.
